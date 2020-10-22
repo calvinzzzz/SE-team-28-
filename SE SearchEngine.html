@@ -26,7 +26,14 @@
                     <button class="button" onclick="return search()">
                         Search
                     </button >
-                    <script src="/SearchEngine.js"></script>
+                    <script type="text/javascript">
+                        new Ajax.Autocompleter('zip', 'zip_value', 'autucomplete', {afterUpdateElement : getSelection});
+                        function getSelectionId(text, li) {
+                            window.location = "./search.jsp? query="+encodeURIComponent(text.value);
+                            
+                        }
+                        
+                    </script>
                 </form>
 
                 <br>
