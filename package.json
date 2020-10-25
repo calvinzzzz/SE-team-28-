@@ -1,22 +1,14 @@
 {
-  "name": "SE-team-28-",
+  "name": "SE-SearchEngine",
   "version": "1.0.0",
   "description": "",
-  "main": "SearchEngine.js",
+  "main": "index.js",
   "scripts": {
-    "start": "echo \"Error: no test specified\" && exit 1",
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/calvinzzzz/SE-team-28-.git"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/calvinzzzz/SE-team-28-/issues"
-  },
-  "homepage": "https://github.com/calvinzzzz/SE-team-28-#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
