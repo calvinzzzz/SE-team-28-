@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+    <div class="login-box" v-show="loginStatus" @click="loginBoxClick">
+        <h1>Login</h1>
+        <div class="textbox">
+            <i class="username" aria-hidden="true"></i>
+            <input type="text" placeholder="Username" >
+        </div>
+
+        <div class="textbox" v-show="registerStatus" @click="registerBoxClick">
+            <i class="psw" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" >
+        </div>
+            <input class="button" type="button" @click="login" value="Sign in">
+    </div>
+</body>
+</html>

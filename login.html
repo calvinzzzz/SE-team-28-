@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="loginStyle.css">
+</head>
+<body>
+    <a href="SE SearchEngine.html">
+        <button>HomePage</button>
+    </a>
+
+    <div class="login-box" v-show="loginStatus" @click="loginBoxClick">
+        <h1>Login</h1>
+        <div class="textbox">
+            <i class="username" aria-hidden="true"></i>
+            <input type="text" placeholder="Username" >
+        </div>
+
+        <div class="textbox" v-show="registerStatus" @click="registerBoxClick">
+            <i class="psw" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" >
+        </div>
+            <input class="button" type="button" @click="login" value="Sign in">
+            <input class="registerButton" type="button"  href="register.html" value="Register">
+    </div>
+
+</body>
+</html> 
