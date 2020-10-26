@@ -1,15 +1,15 @@
 {
-  "name": "SE-SearchEngine",
+  "name": "mochatest",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "testing software engerning assignment",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "mocha || true"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
   }
 }
